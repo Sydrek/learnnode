@@ -1,11 +1,12 @@
+import fs from 'fs';
+import boxen from 'boxen';
+import { color } from 'bun';
 
-//CommonJS on vana ning internetis on veel näiteid selle kohta
-const common = require('./common.js')
+fs.writeFileSync('Data/test.txt', 'Hello test!');
 
-//import common from './common.js'
-common.hello()
-
-//Parem on kasutada importi
-import es from './es.js'
-es.hello()
-
+console.log(
+    boxen('unicorn', {
+        padding: 1,
+        backgroundColor: 'green'
+    })
+);
