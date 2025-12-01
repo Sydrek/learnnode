@@ -1,0 +1,5 @@
+Bun:
+
+bun i {package} //bun install package
+bunx vite //starts vite server
+bun run dev // runs the dev script which you can add yourself to package.json - you can even run vite

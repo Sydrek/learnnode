@@ -1,0 +1,12 @@
+HTML:
+
+    emmet:
+    ul#test>li.value$*8>{value $}
+        <ul id="test">
+            <li class="value1">value 1</li>
+            <li class="value2">value 2</li>
+            <li class="value3">value 3</li>
+            ...8x
+        </ul>
+    lorem10 = 10 words of lorem ipsum / lorem10*10 = 10 lines of 10 word lorem ipsum
+    

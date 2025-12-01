@@ -1,1 +1,22 @@
-bun i {package} //bun install package
+HTML:
+ul - unorginised list
+
+CSS:
+Sass
+
+JS:
+coffescript - simple, but not as useful anymore
+
+JS Frameworks:
+react js
+angular js
+vue js
+svelte js
+solid js
+JQuery - old
+
+Bundlers:
+Webpack - Little outdated
+Rspack - faster and newer
+Vite - New, best currently
+Parcel - Simple. Alternative to Vite
