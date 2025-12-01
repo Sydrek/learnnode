@@ -3,6 +3,7 @@ ul - unorginised list
 
 CSS:
 Sass
+Bulma
 
 JS:
 coffescript - simple, but not as useful anymore

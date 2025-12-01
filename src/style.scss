@@ -1,3 +1,6 @@
+@use "sass:color";
+
+$bgcolor: yellow; 
 body {
-    background-color: brown;
+    background: color.scale($bgcolor, $lightness: 60%);
 }

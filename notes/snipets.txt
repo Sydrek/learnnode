@@ -1,7 +1,7 @@
 HTML:
 
     emmet:
-    ul#test>li.value$*8>{value $}
+    ul#test>li.value$*8>{value $} // (<element id="#...">) + (element.class) * $ > {inner.HTML + $}
         <ul id="test">
             <li class="value1">value 1</li>
             <li class="value2">value 2</li>
