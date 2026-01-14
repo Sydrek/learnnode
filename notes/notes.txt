@@ -1,3 +1,5 @@
+CDN - content delivery network
+
 HTML:
 ul - unorginised list
 
