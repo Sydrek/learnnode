@@ -2,6 +2,7 @@
 
 // Imports
 import { computed, ref } from 'vue';
+import Modal from './components/Modal.vue';
 
 // Simple Variables
 let i = 0;
@@ -27,37 +28,9 @@ function add() {
 <template>
     <div class="container">
 
-        <div class="field has-addons mt-5">
+        <button class="button is-primary" @click="modal1Active = true"></button>
 
-            <div class="control is-expanded">
-                <input class="input" type="text" v-model="newItem" @keypress.enter="add">
-            </div>
-
-            <div class="control">
-                <button class="button is-info" @click="add">
-                    Add item
-                </button>
-            </div>
-
-        </div>
-
-        <div class="content">
-            <h1>All Items</h1>
-            <ul>
-                <li v-for="item in items">
-                    {{ item.text }}
-                    <input type="checkbox" v-model="item.isDone">
-                </li>
-            </ul>
-
-            <h1>Done Items</h1>
-            <ul>
-                <li v-for="item in doneItems">
-                    {{ item.text }}
-                    <input type="checkbox" v-model="item.isDone">
-                </li>
-            </ul>
-        </div>
+        <Modal :active="modal1Active" @close="modal1Active = false"></Modal>
 
     </div>
 </template>
