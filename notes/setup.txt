@@ -1,0 +1,10 @@
+powershell -c "irm bun.sh/install.ps1|iex"
+
+-- Restart
+
+bun i vite
+
+EXTENTIONS:
+
+1. Vue
+2. Vue Extention Box
