@@ -1,4 +1,6 @@
 <script setup>
+
+// Simple Variables
     defineProps(['items', 'title']);
 </script>
 
