@@ -3,6 +3,7 @@ powershell -c "irm bun.sh/install.ps1|iex"
 -- Restart
 
 bun i vite
+bun add vue-router@4
 
 EXTENTIONS:
 
