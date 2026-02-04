@@ -1,8 +1,8 @@
 <script setup>
 // Imports
 import { computed, ref } from 'vue';
-import Modal from './components/Modal.vue';
-import ImgModal from './components/ImgModal.vue';
+import Modal from '../components/Modal.vue';
+import ImgModal from '../components/ImgModal.vue';
 
 // Simple Variables
 let modal1Active = ref(false);
